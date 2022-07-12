@@ -1,22 +1,3 @@
-<?php require("config/koneksi.php"); ?>
-<?php 
-
-error_reporting(0);
-session_start();
-if (isset($_SESSION['user_administrator']) and isset($_SESSION['pass_administrator']) or isset($_SESSION['user_admin']) and isset($_SESSION['pass_admin']) or isset($_SESSION['user_customer']) and isset($_SESSION['pass_customer']) or isset($_SESSION['user_teknisi']) and isset($_SESSION['pass_teknisi']) or isset($_SESSION['user_admin_gudang']) and isset($_SESSION['pass_admin_gudang']) or isset($_SESSION['user_admin_teknisi']) and isset($_SESSION['pass_admin_teknisi']) or isset($_SESSION['user_admin_keuangan']) and isset($_SESSION['pass_admin_keuangan']) or isset($_SESSION['user_admin_sales']) and isset($_SESSION['pass_admin_sales']) or isset($_SESSION['user_admin_po_luar']) and isset($_SESSION['pass_admin_po_luar']) or isset($_SESSION['user_manajer_gudang']) or isset($_SESSION['user_manajer_teknisi']) or isset($_SESSION['user_manajer_keuangan']) or isset($_SESSION['user_cs'])) { 
-?>
-<?php 
-/*if (isset($_POST['button_limit'])) {
-	$update = mysqli_query($koneksi, "update limiter set limiter=".$_POST['limiterr']." where id=1");
-	}
-if (isset($_POST['button_urut'])) {
-	$update = mysqli_query($koneksi, "update limiter set urut='".$_POST['urutt']."' where id=1");
-	}
-	
-	$limiter = mysqli_fetch_array(mysqli_query($koneksi, "select * from limiter where id=1"));
-*/
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
